@@ -9,8 +9,8 @@
 <h2>{{description}}</h2>
 <ul>
   <li class="signUp">
-    <button><a routerLink="/signup">Sign up</a></button>
-  <router-outlet></router-outlet>
+    <button routerLink="/signup" routerLinkActive="active">Sign up</button>
+
   </li>
   <li>
     <button (click)="returnSignInPage()">Sign in</button>
